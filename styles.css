@@ -118,6 +118,11 @@ img {
 	font-family: Helvetica;
 }
 
+.portfolio_intro{
+	text-align: center;
+	padding-bottom: 25px;
+}
+
 .portfolio h1 {
 	text-align: center;
 	margin: 0 auto;
