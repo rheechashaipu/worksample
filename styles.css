@@ -165,5 +165,7 @@ img {
 
 	.proj_image{
 		border-top: 3px black solid;
+		width: 100%;
+		height: auto;
 	}
 }
