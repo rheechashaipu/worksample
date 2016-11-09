@@ -165,7 +165,10 @@ img {
 
 	.proj_image{
 		border-top: 3px black solid;
-		width: 100%;
+	}
+
+	.proj_image img{
+		width: 300px;
 		height: auto;
 	}
 }
