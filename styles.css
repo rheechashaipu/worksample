@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+}
+
+.flex-grid{
+	display: flex;
+}
+
+.flex_grid_gallery{
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.col{
+	flex: 1;
+}
+
+.heading{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: Helvetica;
+	font-size: 25px;
+
+	background-image: url(images/notebook.png);
+}
+
+
+.icons li {
+	display: inline;
+	padding: 15px;
+}
+
+.icons li a {
+	color: black;
+	text-decoration: none;
+}
+.intro h2{
+	margin: 0;
+}
+
+.about_me {
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+	background-color: #ecf0f1;
+	font-family: Helvetica;
+}
+
+.about_me h3{
+	margin-top: 0;
+}
+
+.about_me_content {
+	width: 80%;
+	margin: 0 auto;
+	line-height: 2em;
+}
+
+
+.selfie {
+	padding-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	width: auto;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.education {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.education_history {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.schools {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.skills{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.skills ul{
+	padding: 0;
+}
+
+.skills li{
+	display: inline;
+	padding: 5px;
+}
+
+.portfolio {
+	padding-top: 15px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #bdc3c7;
+	font-family: Helvetica;
+}
+
+.portfolio h1 {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.gallery {
+	width: 80%;
+	margin: auto;
+}
+
+.proj_image{
+	height: 400px;
+	width: 400px;
+}
+
+
+.proj_image img{
+	width: 400px;
+	height: auto;
+}
+
+
+.proj_desc{
+}
+
+
+@media (max-width: 700px) {
+
+	.flex-grid{
+		display: block;
+	}
+	.flex_grid_gallery {
+		display: block;
+	}
+}
