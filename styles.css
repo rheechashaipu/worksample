@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	height: 100%;
 }
 
 .flex-grid{
@@ -117,6 +118,8 @@ img {
 	margin: 0 auto;
 	background-color: #bdc3c7;
 	font-family: Helvetica;
+	min-height: 100vh;
+	height: auto;
 }
 
 .portfolio_intro{
@@ -147,16 +150,20 @@ img {
 }
 
 
-.proj_desc{
-}
-
-
-@media (max-width: 700px) {
+@media (max-width: 750px) {
 
 	.flex-grid{
 		display: block;
 	}
 	.flex_grid_gallery {
 		display: block;
+	}
+
+	.gallery{
+		width: 100%;
+	}
+
+	.proj_image{
+		border-top: 3px black solid;
 	}
 }
