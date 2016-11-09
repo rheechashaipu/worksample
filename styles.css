@@ -159,16 +159,24 @@ img {
 		display: block;
 	}
 
+	.about_me_content {
+		width: 100%;
+	}
+
 	.gallery{
 		width: 100%;
 	}
 
 	.proj_image{
 		border-top: 3px black solid;
+		height: 300px;
+		width: 80%;
+		display: block;
+		margin: 0 auto;
 	}
 
 	.proj_image img{
-		width: 300px;
+		width: 100%;
 		height: auto;
 	}
 }
