@@ -160,6 +160,10 @@ img {
 		display: block;
 	}
 
+	.heading h2{
+		padding-left: 10px;
+	}
+
 	.about_me_content {
 		width: 90%;
 		margin: 0 auto;
